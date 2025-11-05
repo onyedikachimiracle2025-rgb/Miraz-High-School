@@ -1,62 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Miraz High School</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miraz High School</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!-- HEADER -->
-  <header>
-    <div class="container">
-      <div class="logo">
-        <img src="logo.png" alt="Miraz High School Logo">
-        <h1>Miraz High School</h1>
-        <p class="motto">Learning Today, Leading Tomorrow</p>
-      </div>
+    <header>
+        <img src="school-logo.png" alt="Miraz High School Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      <nav>
-        <button class="menu-btn" aria-expanded="false" onclick="toggleMenu(this)">☰</button>
-        <ul id="mobile-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="admissions.html">Admissions</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <section class="hero">
+        <h1>Welcome to Miraz High School</h1>
+        <p>Learning Today, Leading Tomorrow</p>
+        <a href="admissions.html" class="btn">Enroll Now</a>
+    </section>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <h2>Welcome to Miraz High School</h2>
-    <p>Building bright futures through quality education and discipline.</p>
-    <a href="admissions.html" class="btn">Apply Now</a>
-  </section>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Miraz High School is dedicated to academic excellence, moral values, and holistic development. We prepare students to thrive in academics, sports, and life.</p>
+    </section>
 
-  <!-- ABOUT PREVIEW -->
-  <section class="about-preview">
-    <h2>Who We Are</h2>
-    <p>At Miraz High School, we are dedicated to providing world-class education that empowers students to achieve excellence in academics and character.</p>
-    <a href="about.html" class="btn-secondary">Learn More</a>
-  </section>
+    <section class="features">
+        <div class="feature">
+            <h3>Experienced Teachers</h3>
+            <p>Our staff are highly qualified and passionate about nurturing young minds.</p>
+        </div>
+        <div class="feature">
+            <h3>Modern Facilities</h3>
+            <p>State-of-the-art classrooms, laboratories, and sports facilities for a complete learning experience.</p>
+        </div>
+        <div class="feature">
+            <h3>Community Values</h3>
+            <p>We instill ethics, responsibility, and social awareness in all our students.</p>
+        </div>
+    </section>
 
-  <!-- ACADEMICS PREVIEW -->
-  <section class="academics-preview">
-    <h2>Academic Excellence</h2>
-    <p>Our dedicated teachers and modern facilities ensure that students reach their full potential in all areas of study.</p>
-    <a href="academics.html" class="btn-secondary">Explore Academics</a>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>&copy; <span id="year"></span> Miraz High School. All rights reserved.</p>
-    <p>Located at State Housing Estate</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Miraz High School | State Housing Estate</p>
+        <p>Email: <a href="mailto:onyedikachimiracle2025@gmail.com">onyedikachimiracle2025@gmail.com</a> | Phone: +234 07047316597</p>
+    </footer>
 </body>
 </html>
