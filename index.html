@@ -2,6 +2,200 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Miraz High School — Learning Today, Learning Tomorrow</title>
+  <meta name="description" content="Miraz High School — Academic excellence, character formation, and community growth." />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Miraz High School logo" onerror="this.style.display='none'">
+        <div>
+          <h1>Miraz High School</h1>
+          <div class="motto">Learning Today, Learning Tomorrow</div>
+        </div>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <button class="mobile-toggle" aria-expanded="false" aria-controls="mobile-menu" onclick="toggleMenu(this)">☰</button>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div style="display:flex;gap:12px;align-items:center">
+        <a class="cta" href="#admissions">Apply Now</a>
+      </div>
+    </div>
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#about" style="display:block;padding:8px 0">About</a>
+      <a href="#admissions" style="display:block;padding:8px 0">Admissions</a>
+      <a href="#academics" style="display:block;padding:8px 0">Academics</a>
+      <a href="#gallery" style="display:block;padding:8px 0">Gallery</a>
+      <a href="#contact" style="display:block;padding:8px 0">Contact</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <span class="kicker">Welcome</span>
+        <h2>Where curiosity meets excellence — Miraz High School</h2>
+        <p>We build confident learners, resilient thinkers, and kind leaders. From strong academics to wholesome extracurricular life — we prepare students for the world.</p>
+        <div class="actions">
+          <a class="cta" href="#admissions">Apply Now</a>
+          <a class="btn-outline" href="#about">Learn More</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat card">
+            <h3>1,200+</h3>
+            <p>Students enrolled</p>
+          </div>
+          <div class="stat card">
+            <h3>40+</h3>
+            <p>Experienced teachers</p>
+          </div>
+          <div class="stat card">
+            <h3>12</h3>
+            <p>Extracurricular clubs</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card">
+        <h3 style="margin-top:0">Quick Contact</h3>
+        <p style="margin:6px 0;color:var(--muted)"><strong>Email:</strong> onyedikachimiracle2025@gmail.com</p>
+        <p style="margin:6px 0;color:var(--muted)"><strong>Phone:</strong> +234 07047316597</p>
+        <p style="margin:6px 0;color:var(--muted)"><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61577723669773" target="_blank" rel="noopener">Visit our page</a></p>
+        <hr style="border:none;border-top:1px solid rgba(10,10,10,0.06);margin:12px 0">
+        <a class="cta" href="#contact">Get in touch</a>
+      </aside>
+    </section>
+
+    <section id="about">
+      <div class="card">
+        <h2>About Miraz High School</h2>
+        <p style="color:var(--muted)">Miraz High School is committed to academic excellence, character formation and community service. We offer a broad curriculum that balances STEM, arts, sports and leadership.</p>
+        <div style="margin-top:16px" class="grid-3">
+          <div>
+            <h3>Mission</h3>
+            <p class="features">To empower students with knowledge, integrity, and the courage to lead.</p>
+          </div>
+          <div>
+            <h3>Vision</h3>
+            <p class="features">A community of lifelong learners that shapes a brighter future.</p>
+          </div>
+          <div>
+            <h3>Values</h3>
+            <ul class="features">
+              <li>Respect</li>
+              <li>Discipline</li>
+              <li>Curiosity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="academics">
+      <h2>Academics & Programs</h2>
+      <div class="grid-3" style="margin-top:12px">
+        <div class="card">
+          <h3>Science & Technology</h3>
+          <p class="features">Practical labs, coding clubs, and project-based learning.</p>
+        </div>
+        <div class="card">
+          <h3>Arts & Humanities</h3>
+          <p class="features">Creative expression through music, drama and visual arts.</p>
+        </div>
+        <div class="card">
+          <h3>Sports & Wellness</h3>
+          <p class="features">Physical education, inter-house competitions and wellness programs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="admissions">
+      <div class="card">
+        <h2>Admissions</h2>
+        <p style="color:var(--muted)">We welcome applications for the next academic session. Scholarships and sibling discounts available.</p>
+        <ol style="color:var(--muted)">
+          <li>Complete online application form.</li>
+          <li>Submit previous school records and birth certificate.</li>
+          <li>Attend entrance assessment and interview.</li>
+        </ol>
+        <a class="cta" href="#contact">Start Application</a>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery" style="margin-top:12px">
+        <img src="assets/gallery1.jpg" alt="Students in class" onerror="this.style.display='none'">
+        <img src="assets/gallery2.jpg" alt="School campus" onerror="this.style.display='none'">
+        <img src="assets/gallery3.jpg" alt="Sports day" onerror="this.style.display='none'">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="card contact-grid">
+        <div>
+          <form id="contactForm" onsubmit="submitForm(event)">
+            <label for="name">Full name</label>
+            <input id="name" required placeholder="Jane Doe">
+            <label for="email">Email</label>
+            <input id="email" type="email" required placeholder="you@example.com">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="How can we help?" required></textarea>
+            <button type="submit">Send message</button>
+          </form>
+        </div>
+        <aside>
+          <h3>Visit</h3>
+          <p style="color:var(--muted)">State Housing Estate<br>Plot 123, Education Drive<br>Lagos, Nigeria</p>
+          <h3>Quick links</h3>
+          <ul style="color:var(--muted)">
+            <li>School calendar</li>
+            <li>Payment portal</li>
+            <li>Student portal</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap footer">
+      <div>
+        <strong>Miraz High School</strong>
+        <div class="motto">Learning Today, Learning Tomorrow</div>
+      </div>
+      <div style="color:var(--muted);font-size:14px">© <span id="year"></span> Miraz High School. All rights reserved.</div>
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=61577723669773" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
   <base href="/miraz-high-school/" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Miraz High School — Learning Today, Learning Tomorrow</title>
